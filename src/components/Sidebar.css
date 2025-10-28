@@ -1,34 +1,33 @@
 .sidebar {
   width: 280px;
   height: 100vh;
-  background: linear-gradient(180deg, #1e3a5f 0%, #2c5282 100%);
+  background: #2c3e50;
   color: white;
   position: fixed;
   left: 0;
   top: 0;
   display: flex;
   flex-direction: column;
-  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
 }
 
 .sidebar-header {
   padding: 2rem 1.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .sidebar-header h2 {
   margin: 0;
-  font-size: 1.75rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   letter-spacing: -0.5px;
 }
 
 .sidebar-subtitle {
   margin: 0.5rem 0 0 0;
   font-size: 0.875rem;
-  opacity: 0.8;
+  opacity: 0.7;
   font-weight: 300;
 }
 
@@ -41,25 +40,24 @@
   display: flex;
   align-items: center;
   padding: 0.875rem 1.5rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   border-left: 3px solid transparent;
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .nav-item:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   color: white;
-  border-left-color: #60a5fa;
 }
 
 .nav-item.active {
-  background: rgba(96, 165, 250, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   color: white;
-  border-left-color: #60a5fa;
-  font-weight: 600;
+  border-left-color: white;
+  font-weight: 500;
 }
 
 .nav-icon {
@@ -78,7 +76,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   font-size: 0.75rem;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .sidebar-footer p {
@@ -87,7 +85,6 @@
 
 .version {
   font-family: 'Courier New', monospace;
-  color: #60a5fa;
 }
 
 /* Scrollbar styling */

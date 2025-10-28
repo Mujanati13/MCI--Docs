@@ -2,37 +2,24 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
-  animation: fadeIn 0.5s ease-in;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .markdown-header {
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e5e7eb;
 }
 
 .markdown-header h1 {
   font-size: 2.5rem;
-  color: #1e3a5f;
-  margin: 0 0 1rem 0;
+  color: #1a1a1a;
+  margin: 0;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .header-divider {
-  height: 4px;
-  width: 80px;
-  background: linear-gradient(90deg, #2c5282, #60a5fa);
-  border-radius: 2px;
+  display: none;
 }
 
 .markdown-content {
@@ -43,43 +30,30 @@
 /* Headings */
 .md-h1 {
   font-size: 2rem;
-  color: #1e3a5f;
+  color: #1a1a1a;
   margin: 2.5rem 0 1.5rem 0;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
   font-weight: 700;
 }
 
 .md-h2 {
   font-size: 1.65rem;
-  color: #2c5282;
+  color: #1a1a1a;
   margin: 2rem 0 1.25rem 0;
   font-weight: 600;
-  position: relative;
-  padding-left: 1rem;
-}
-
-.md-h2::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #60a5fa;
-  border-radius: 2px;
 }
 
 .md-h3 {
   font-size: 1.35rem;
-  color: #374151;
+  color: #333;
   margin: 1.75rem 0 1rem 0;
   font-weight: 600;
 }
 
 .md-h4 {
   font-size: 1.15rem;
-  color: #4b5563;
+  color: #444;
   margin: 1.5rem 0 0.875rem 0;
   font-weight: 600;
 }
@@ -87,7 +61,7 @@
 /* Paragraphs */
 .md-p {
   margin: 1rem 0;
-  color: #4b5563;
+  color: #555;
   font-size: 1rem;
 }
 
@@ -99,22 +73,12 @@
 
 .md-li {
   margin: 0.5rem 0;
-  color: #4b5563;
+  color: #555;
   line-height: 1.75;
 }
 
 .md-ul .md-li {
-  position: relative;
-  list-style: none;
-  padding-left: 1.5rem;
-}
-
-.md-ul .md-li::before {
-  content: '▸';
-  position: absolute;
-  left: 0;
-  color: #60a5fa;
-  font-weight: bold;
+  list-style: disc;
 }
 
 .md-ol {
@@ -128,9 +92,9 @@
 /* Code */
 .md-code-inline {
   background: #f3f4f6;
-  color: #e53e3e;
+  color: #d63384;
   padding: 0.2rem 0.4rem;
-  border-radius: 4px;
+  border-radius: 3px;
   font-size: 0.9em;
   font-family: 'Courier New', monospace;
   border: 1px solid #e5e7eb;
@@ -138,56 +102,53 @@
 
 .md-code-block {
   display: block;
-  background: #1e293b;
-  color: #e2e8f0;
+  background: #f8f9fa;
+  color: #333;
   padding: 1.25rem;
-  border-radius: 8px;
+  border-radius: 4px;
   overflow-x: auto;
   font-family: 'Courier New', monospace;
   font-size: 0.9rem;
   line-height: 1.6;
   margin: 1.5rem 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
 }
 
 /* Blockquote */
 .md-blockquote {
-  border-left: 4px solid #fbbf24;
-  background: #fffbeb;
+  border-left: 4px solid #ddd;
+  background: #f9f9f9;
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  border-radius: 4px;
-  color: #92400e;
+  color: #666;
 }
 
 .md-blockquote p {
   margin: 0.5rem 0;
-  color: #92400e;
+  color: #666;
 }
 
 /* Links */
 .md-link {
   color: #2563eb;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
+  text-decoration: underline;
+  transition: color 0.2s ease;
 }
 
 .md-link:hover {
   color: #1d4ed8;
-  border-bottom-color: #1d4ed8;
 }
 
 /* Strong */
 .md-strong {
   font-weight: 700;
-  color: #1e3a5f;
+  color: #1a1a1a;
 }
 
 /* Horizontal Rule */
 hr {
   border: none;
-  border-top: 2px solid #e5e7eb;
+  border-top: 1px solid #e5e7eb;
   margin: 2rem 0;
 }
 
@@ -201,7 +162,7 @@ table {
 
 th {
   background: #f3f4f6;
-  color: #1e3a5f;
+  color: #1a1a1a;
   font-weight: 600;
   padding: 0.75rem;
   text-align: left;
@@ -211,7 +172,7 @@ th {
 td {
   padding: 0.75rem;
   border-bottom: 1px solid #e5e7eb;
-  color: #4b5563;
+  color: #555;
 }
 
 tr:hover {
