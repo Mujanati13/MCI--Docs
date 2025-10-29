@@ -1,13 +1,14 @@
 # 6. Guide Utilisation : Consultant / Responsable
 
 ## Rôle du Consultant
+![alt text](image-17.png)
 
 En tant que consultant, vous gérez vos CRA (Comptes Rendus d'Activité), vos notes de frais, et suivez vos missions.
 
 
 
 ## Remplir Mon CRA (Compte Rendu d'Activité)
-
+![alt text](image-18.png)
 ### Pourquoi remplir un CRA ?
 Le CRA permet de :
 - Justifier votre temps de travail
@@ -56,7 +57,7 @@ Contrôler :
 ---
 
 ## Gérer Mes Notes de Frais
-
+![alt text](image-19.png)
 ### Qu'est-ce qu'une Note de Frais (NDF) ?
 La NDF permet de vous faire rembourser vos frais professionnels :
 - Transport (train, avion, taxi)
@@ -66,7 +67,7 @@ La NDF permet de vous faire rembourser vos frais professionnels :
 - Fournitures
 
 ### Créer une Note de Frais
-
+![alt text](image-20.png)
 #### Étape 1 : Nouvelle NDF
 1. Menu **"Notes de Frais"** 
 2. Indiquer :
@@ -112,16 +113,18 @@ Vous recevez des alertes pour :
 ##  Rôle du Responsable (Manager)
 
 Si vous êtes **responsable d'équipe**, vous avez des fonctions supplémentaires.
-
+![alt text](image-21.png)
 ### Valider les CRA de mon équipe
-1. Menu **"Équipe"** → **"CRA à valider"**
+![alt text](image-22.png)
+1. Menu **"consultant"** → **"CRA"**
+![alt text](image-23.png)
 2. Liste des CRA soumis par vos consultants
 3. Pour chaque CRA :
    - Vérifier la cohérence
    - Contrôler les jours
    - Lire les activités
 4. **"Valider"** ou **"Refuser"** avec commentaire
-
+![alt text](image-24.png)
 ### Valider les NDF de mon équipe
 1. Menu **"NDF à valider"**
 2. Vérifier :

@@ -22,5 +22,21 @@
   .main-content {
     margin-left: 0;
     padding: 1rem;
+    padding-top: 5rem;
+    min-height: calc(100vh - 80px);
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 1rem 0.75rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
   }
 }

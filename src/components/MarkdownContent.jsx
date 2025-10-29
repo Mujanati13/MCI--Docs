@@ -24,6 +24,7 @@ const MarkdownContent = ({ content, title }) => {
             blockquote: ({ node, ...props }) => <blockquote className="md-blockquote" {...props} />,
             a: ({ node, ...props }) => <a className="md-link" {...props} />,
             strong: ({ node, ...props }) => <strong className="md-strong" {...props} />,
+            img: ({ node, ...props }) => <img className="md-img" {...props} />,
           }}
         >
           {content}

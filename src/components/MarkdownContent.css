@@ -42,13 +42,36 @@
   color: #1a1a1a;
   margin: 2rem 0 1.25rem 0;
   font-weight: 600;
+  position: relative;
+  padding-left: 1rem;
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.05), transparent);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+}
+
+.md-h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #2563eb;
+  border-radius: 2px;
 }
 
 .md-h3 {
   font-size: 1.35rem;
-  color: #333;
+  color: #374151;
   margin: 1.75rem 0 1rem 0;
   font-weight: 600;
+  background: linear-gradient(90deg, rgba(55, 65, 81, 0.03), transparent);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  border-left: 3px solid #93c5fd;
+  padding-left: 1rem;
 }
 
 .md-h4 {
@@ -78,7 +101,17 @@
 }
 
 .md-ul .md-li {
-  list-style: disc;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.md-ul .md-li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
 }
 
 .md-ol {
@@ -87,6 +120,10 @@
 
 .md-ol .md-li {
   counter-increment: item;
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.03), transparent);
+  padding: 0.35rem 0.5rem;
+  border-radius: 2px;
+  margin: 0.75rem 0;
 }
 
 /* Code */
@@ -116,33 +153,75 @@
 
 /* Blockquote */
 .md-blockquote {
-  border-left: 4px solid #ddd;
-  background: #f9f9f9;
+  border-left: 4px solid #2563eb;
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.08), transparent);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  color: #666;
+  color: #444;
+  border-radius: 2px;
 }
 
 .md-blockquote p {
   margin: 0.5rem 0;
-  color: #666;
+  color: #555;
 }
 
 /* Links */
 .md-link {
   color: #2563eb;
-  text-decoration: underline;
-  transition: color 0.2s ease;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.1), transparent);
+  padding: 2px 6px;
+  border-radius: 2px;
 }
 
 .md-link:hover {
   color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.15), transparent);
 }
 
 /* Strong */
 .md-strong {
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1e3a5f;
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.1), rgba(37, 99, 235, 0.05));
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Images */
+.md-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.md-img:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive image sizes */
+@media (max-width: 768px) {
+  .md-img {
+    max-width: 100%;
+    margin: 1.25rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .md-img {
+    max-width: 100%;
+    margin: 1rem auto;
+    border-radius: 6px;
+  }
 }
 
 /* Horizontal Rule */
@@ -183,21 +262,168 @@ tr:hover {
 @media (max-width: 768px) {
   .markdown-container {
     padding: 1rem;
+    max-width: 100%;
   }
 
   .markdown-header h1 {
-    font-size: 2rem;
-  }
-
-  .md-h1 {
     font-size: 1.75rem;
   }
 
-  .md-h2 {
+  .header-divider {
+    width: 60px;
+  }
+
+  .markdown-content {
+    line-height: 1.7;
+  }
+
+  .md-h1 {
     font-size: 1.5rem;
   }
 
+  .md-h2 {
+    font-size: 1.35rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+  }
+
   .md-h3 {
+    font-size: 1.15rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .md-h4 {
+    font-size: 1rem;
+  }
+
+  .md-ul, .md-ol {
+    padding-left: 1.5rem;
+  }
+
+  .md-code-block {
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .markdown-container {
+    padding: 0.75rem;
+    max-width: 100%;
+  }
+
+  .markdown-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .markdown-header h1 {
+    font-size: 1.35rem;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .header-divider {
+    width: 50px;
+    height: 3px;
+  }
+
+  .md-h1 {
     font-size: 1.25rem;
+    margin: 1.75rem 0 1rem 0;
+    padding-bottom: 0.4rem;
+  }
+
+  .md-h2 {
+    font-size: 1.15rem;
+    margin: 1.5rem 0 0.875rem 0;
+    padding-left: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+  }
+
+  .md-h3 {
+    font-size: 1rem;
+    margin: 1.25rem 0 0.75rem 0;
+    padding: 0.4rem;
+    padding-left: 0.75rem;
+  }
+
+  .md-h4 {
+    font-size: 0.95rem;
+    margin: 1rem 0 0.75rem 0;
+  }
+
+  .md-p {
+    font-size: 0.95rem;
+    margin: 0.75rem 0;
+  }
+
+  .md-ul, .md-ol {
+    margin: 0.75rem 0;
+    padding-left: 1.25rem;
+  }
+
+  .md-li {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+  }
+
+  .md-ul .md-li {
+    padding-left: 1.25rem;
+  }
+
+  .md-code-inline {
+    font-size: 0.85rem;
+    padding: 0.15rem 0.35rem;
+  }
+
+  .md-code-block {
+    padding: 0.75rem;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    line-height: 1.5;
+  }
+
+  .md-blockquote {
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    border-left-width: 3px;
+  }
+
+  .md-blockquote p {
+    margin: 0.35rem 0;
+    font-size: 0.9rem;
+  }
+
+  .md-link {
+    padding: 1px 4px;
+    font-size: inherit;
+  }
+
+  .md-strong {
+    padding: 1px 3px;
+  }
+
+  table {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+  }
+
+  th {
+    padding: 0.4rem;
+    font-size: 0.85rem;
+  }
+
+  td {
+    padding: 0.4rem;
+    font-size: 0.85rem;
   }
 }

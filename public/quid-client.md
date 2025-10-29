@@ -7,7 +7,7 @@ En tant que client, vous pouvez publier des appels d'offres, valider les consult
 ---
 
 ## Activer Mon Compte Client
-
+![alt text](image-2.png)
 ### Après la création de votre compte
 
 1. **Vérifier votre email** : Vous recevez un email d'activation
@@ -19,7 +19,7 @@ En tant que client, vous pouvez publier des appels d'offres, valider les consult
    - Contact principal
 
 
-
+![alt text](image-3.png)
 5. **Vérifier et uploader les documents** 
 
 4. **En attente d'acceptation par l'admin** 
@@ -44,7 +44,7 @@ En tant que client, vous pouvez publier des appels d'offres, valider les consult
 
 
 ## Créer un Appel d'Offres
-
+![alt text](image-4.png)
 ### Étape 1 : Nouveau besoin
 1. Menu **"Appels d'Offres"** → **"Nouveau"**
 2. Remplir le formulaire :
@@ -63,7 +63,7 @@ L'AO est automatiquement envoyé aux ESN partenaires correspondant au profil rec
 ---
 
 ## Examiner les Candidatures
-
+![alt text](image-5.png)
 ### Consulter les propositions
 1. Menu **"Appels d'Offres"** → Sélectionner votre AO
 2. Onglet **"Candidatures reçues"**
@@ -85,7 +85,7 @@ L'AO est automatiquement envoyé aux ESN partenaires correspondant au profil rec
 ---
 
 ## Créer un Bon de Commande
-
+![alt text](image-6.png)
 ### Après sélection du consultant
 1. Menu **"Bons de Commande"** → **"Nouveau BDC"**
 2. Remplir les informations 
@@ -97,7 +97,7 @@ L'AO est automatiquement envoyé aux ESN partenaires correspondant au profil rec
 ---
 
 ## Valider les CRA (Comptes Rendus d'Activité)
-
+![alt text](image-7.png)
 ### Pourquoi valider les CRA ?
 Les CRA permettent de :
 - Contrôler le temps passé
@@ -125,7 +125,7 @@ Les CRA permettent de :
 ---
 
 ##  Gérer les Factures
-
+![alt text](image-8.png)
 ### Recevoir une facture
 1. Notification : **"Nouvelle facture"**
 2. Menu **"Factures"**
@@ -144,7 +144,7 @@ Contrôler :
 
 
 ##  Gérer les Missions Actives (BDC)
-
+![alt text](image-9.png)
 Liste de toutes vos missions :
 - **Consultant**
 - **ESN**

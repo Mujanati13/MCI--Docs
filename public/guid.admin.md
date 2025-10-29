@@ -7,7 +7,7 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
 ---
 
 ## Gestion des Utilisateurs
-
+![alt text](image-25.png)
 ### Créer un utilisateur
 1. Menu **"Utilisateurs"** → **"Nouveau"**
 2. Remplir les informations :
@@ -16,7 +16,7 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
    - Téléphone
    - Rôle : ESN / Client 
 3. Cliquer sur **"Enregistrer"**
-
+![alt text](image-26.png)
 #### Valider un profil 
 1. Menu → **"ESN "**
 2. Cliquer sur l'ESN
@@ -43,7 +43,7 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
    - **"Refuser"** : Demander documents complémentaires
 5. Le client reçoit une notification
 
-
+![alt text](image-27.png)
 ### Désactiver les Profils ESN / Client
 1. Menu **"Utilisateurs"** → Sélectionner l'utilisateur
 2. Cliquer sur **"Désactiver"**
@@ -53,20 +53,22 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
 
 
 ## Supervision des Cycles
-
+![alt text](image-29.png)
 ### Cycle AO
 - Voir tous les appels d'offres
-
+![alt text](image-30.png)
+![alt text](image-31.png)
 ### Cycle BDC
 - Valider/annuler des bons de commande
 - **Prendre la commission sur chaque BDC** :
   - Commission = Montant BDC × Pourcentage défini
   - Automatiquement retenue lors de la facturation
-
 ### Cycle CRA
+![alt text](image-28.png)
 - Voir tous les CRA (tous consultants)
 
 ### Cycle Factures
+![alt text](image-32.png)
 - Accès à toutes les factures
 - **Accepter les paiements des clients** 
   - Voir les paiements en attente

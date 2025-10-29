@@ -5,9 +5,9 @@
 L'ESN gère ses consultants, répond aux appels d'offres, et assure le suivi des missions.
 
 ---
-
+![alt text](image-10.png)
 ##  Activer Mon Compte ESN
-
+![alt text](image-11.png)
 ### Après la création de votre compte
 
 1. **Vérifier les informations** de votre entreprise :
@@ -41,7 +41,7 @@ Vous pouvez maintenant :
 ---
 
 ##  Gestion des Consultants
-
+![alt text](image-12.png)
 ### Ajouter un nouveau consultant
 1. Menu **"Consultants"** → **"Nouveau consultant"**
 2. Remplir le profil :
@@ -55,7 +55,7 @@ Vous pouvez maintenant :
 
 
 ##  Répondre aux Appels d'Offres
-
+![alt text](image-13.png)
 ### Consulter les AO disponibles
 1. Menu **"Appels d'Offres"**
 2. Voir la liste des AO ouverts
@@ -80,7 +80,8 @@ Vous pouvez maintenant :
 
 
 ## Gestion des Bons de Commande
-
+![alt text](image-14.png)
+![alt text](image-15.png)
 ### Consulter les BDC
 1. Menu **"Bons de Commande"**
 2. Liste de tous vos BDC 
@@ -97,7 +98,7 @@ Vous pouvez maintenant :
 
 
 ## Gestion des Factures
-
+![alt text](image-16.png)
 ### Suivre les paiements
 1. Menu **"Factures"** 
 2. Filtrer par statut :

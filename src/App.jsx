@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
+import GuideGeneral from './pages/GuideGeneral';
 import GuideTechnique from './pages/GuideTechnique';
 import GuideAdmin from './pages/GuideAdmin';
 import GuideESN from './pages/GuideESN';
@@ -16,6 +17,7 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/general" element={<GuideGeneral />} />
             <Route path="/technique" element={<GuideTechnique />} />
             <Route path="/admin" element={<GuideAdmin />} />
             <Route path="/esn" element={<GuideESN />} />
