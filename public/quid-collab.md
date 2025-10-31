@@ -1,9 +1,7 @@
-# 6. Guide Utilisation : Consultant / Responsable
 
 ## Rôle du Consultant
-![alt text](image-17.png)
-
 En tant que consultant, vous gérez vos CRA (Comptes Rendus d'Activité), vos notes de frais, et suivez vos missions.
+![alt text](image-17.png)
 
 
 
@@ -12,14 +10,6 @@ En tant que consultant, vous gérez vos CRA (Comptes Rendus d'Activité), vos no
 ### Pourquoi remplir un CRA ?
 Le CRA permet de :
 - Justifier votre temps de travail
-- Permettre la facturation au client
-- Suivre vos activités
-
-### Fréquence
-Selon votre ESN :
-- **1** : Remplir chaque jour
-- **2** : Remplir chaque semaine
-- **3** : Remplir chaque mois
 
 ### Comment remplir un CRA ?
 
@@ -29,15 +19,13 @@ Pour chaque jour de la période :
 2. Indiquer le **temps travaillé** :
    -  Journée complète (1 jour)
    -  Demi-journée (0,5 jour)
-   -  Congé / Absence (0 jour)
-   -  Maladie (0 jour)
 
 #### Étape 2 : Vérifier
 Contrôler :
 - **Total de jours** : Nombre de jours travaillés
 
 #### Étape 4 : Soumettre
-1. Cliquer sur **"Soumettre pour validation"**
+1. Cliquer sur **"Soumettre pour validation"** (Envoyer)
 2. Le CRA est envoyé à votre responsable ESN
 3. Puis au client pour validation finale
 
@@ -57,7 +45,6 @@ Contrôler :
 ---
 
 ## Gérer Mes Notes de Frais
-![alt text](image-19.png)
 ### Qu'est-ce qu'une Note de Frais (NDF) ?
 La NDF permet de vous faire rembourser vos frais professionnels :
 - Transport (train, avion, taxi)
@@ -67,70 +54,43 @@ La NDF permet de vous faire rembourser vos frais professionnels :
 - Fournitures
 
 ### Créer une Note de Frais
+![alt text](image-19.png)
 ![alt text](image-20.png)
-#### Étape 1 : Nouvelle NDF
 1. Menu **"Notes de Frais"** 
-2. Indiquer :
-   - **Période** : Mois concerné
-   - **Mission** : Mission associée (si applicable)
-   - **Titre** : Ex: "Déplacements Mars 2025"
-
-#### Étape 2 : Ajouter les frais
-Pour chaque dépense :
-1. **"Ajouter une ligne"**
-2. Remplir :
-   - **Date** de la dépense
-   - **Catégorie** : Transport, Hébergement, Repas, etc.
-   - **Description** : Ex: "Taxi aéroport -> client"
-   - **Montant** : Montant HT ou TTC selon politique
-   - **TVA** : Si applicable
+2. Remplir les informations
 3. **"Joindre le justificatif"** :
    - Photo du ticket
    - Scan de la facture
    - Capture du reçu email
    - Formats acceptés : JPG, PNG, PDF
 
-> ⚠️ **Important** : TOUJOURS joindre un justificatif ! Sans justificatif = refus automatique.
+> ⚠️ **Important** : TOUJOURS joindre un justificatif !
 
 #### Étape 3 : Soumettre
 1. Vérifier toutes les lignes
 2. **"Soumettre pour validation"**
-3. Votre responsable ESN est notifié
-
-### Statuts de la NDF
-- **Brouillon** : En cours de saisie
-- **Soumise** : En attente de validation
-- **Validée** : Approuvée, en attente de remboursement
-- **Remboursée** : Payée sur votre compte
-- **Refusée** : Corrections nécessaires
-
-## Notifications
 
 Vous recevez des alertes pour :
 - CRA validé
 
 
 ##  Rôle du Responsable (Manager)
+![alt text](image-21.png)
 
 Si vous êtes **responsable d'équipe**, vous avez des fonctions supplémentaires.
-![alt text](image-21.png)
 ### Valider les CRA de mon équipe
 ![alt text](image-22.png)
 1. Menu **"consultant"** → **"CRA"**
 ![alt text](image-23.png)
 2. Liste des CRA soumis par vos consultants
 3. Pour chaque CRA :
-   - Vérifier la cohérence
    - Contrôler les jours
    - Lire les activités
 4. **"Valider"** ou **"Refuser"** avec commentaire
-![alt text](image-24.png)
 ### Valider les NDF de mon équipe
-1. Menu **"NDF à valider"**
-2. Vérifier :
-   - Justificatifs présents
-   - Montants cohérents
-   - Respect des plafonds
+![alt text](image-24.png)
+1. Menu **Note de Frais**
+2. Vérifier
 3. **"Valider"** ou **"Refuser"**
 
 

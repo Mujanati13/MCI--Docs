@@ -13,7 +13,7 @@ const Sidebar = () => {
     { path: '/admin', label: 'Guide Administrateur', icon: '👑' },
     { path: '/esn', label: 'Guide ESN', icon: '🏢' },
     { path: '/client', label: 'Guide Client', icon: '👤' },
-    { path: '/consultant', label: 'Guide Consultant', icon: '💼' },
+    { path: '/consultant', label: 'Guide Collaborateur', icon: '💼' },
   ];
 
   const toggleMenu = () => {

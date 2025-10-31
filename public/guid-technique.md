@@ -1,4 +1,3 @@
-# 1. Guide Technique : Hébergement et Prérequis
 
 ##  Hébergement
 

@@ -8,36 +8,19 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
 
 ## Gestion des Utilisateurs
 
-### Créer un utilisateur
-1. Menu **"Utilisateurs"** → **"Nouveau"**
-2. Remplir les informations :
-   - Nom et prénom
-   - Email (servira d'identifiant)
-   - Téléphone
-   - Rôle : ESN / Client 
-3. Cliquer sur **"Enregistrer"**
-
 #### Valider un profil 
 1. Menu → **"ESN "**
 2. Cliquer sur l'ESN
-3. Vérifier les documents :
-   - ✓ SIRET / Registre du commerce
-   - ✓ Statuts de l'entreprise
-   - ✓ Certificat d'immatriculation
-   - ✓ Pièce d'identité du responsable
+3. Vérifier les documents 
 4. Actions possibles :
    - **"Approuver"** : Profil valide, compte activé
-   - **"Refuser"** : Demander documents complémentaires
+   - **"Envoyer rappel"** : Demander documents complémentaires
 5. L'ESN reçoit une notification
 
 #### Valider un profil Client
 1. Menu → **"Clients"**
 2. Cliquer sur le client
-3. Vérifier les documents :
-   - ✓ SIRET / Registre du commerce
-   - ✓ Statuts de l'entreprise
-   - ✓ Certificat d'immatriculation
-   - ✓ Pièce d'identité du responsable
+3. Vérifier les documents 
 4. Actions possibles :
    - **"Approuver"** : Profil valide, compte activé
    - **"Refuser"** : Demander documents complémentaires
@@ -45,7 +28,7 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
 
 
 ### Désactiver les Profils ESN / Client
-1. Menu **"Utilisateurs"** → Sélectionner l'utilisateur
+1. Menu **"ESN/CLIENT"** → Sélectionner l'utilisateur
 2. Cliquer sur **"Désactiver"**
 3. Confirmer l'action
 

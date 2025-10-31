@@ -59,24 +59,13 @@ Vous pouvez maintenant :
 ### Consulter les AO disponibles
 1. Menu **"Appels d'Offres"**
 2. Voir la liste des AO ouverts
-3. Filtrer par :
-   - Client
-   - Compétences requises
-   - Budget
-   - Date limite
 
 ### Répondre à un AO
-1. Cliquer sur l'AO qui vous intéresse
-2. Lire les **détails de la mission** :
-   - Description du besoin
-   - Compétences requises
-   - Durée de la mission
-   - Budget indicatif
-   - Date limite de réponse
-3. **"Proposer un consultant"**
-4. Sélectionner le consultant dans votre liste
-5. Ajuster le **TJM** si nécessaire
-8. **"Soumettre la proposition"**
+1. Lire les **AO** :
+2. **"Proposer un consultant"**
+3. Sélectionner le consultant dans votre liste
+4. Ajuster le **TJM** si nécessaire
+5. **"Soumettre la proposition"**
 
 
 ## Gestion des Bons de Commande
@@ -87,13 +76,8 @@ Vous pouvez maintenant :
 
 ### Valider un nouveau BDC
 1. Notification : **"Nouveau BDC à valider"**
-2. Vérifier les informations :
-   - Consultant assigné
-   - Dates de mission
-   - TJM
-   - Conditions de paiement
-3. Si tout est correct : **"Valider"**
-4. Si erreur : **"Demander modification"** + commentaire
+2. Vérifier les informations 
+3. **"Valider"**/**"Anuller"**
 
 
 ## Gestion des Factures
@@ -105,6 +89,7 @@ Vous pouvez maintenant :
    - En attente de paiement
    - Payée
 ---
+3. valider le recu payment 
 
 ## Notifications
 

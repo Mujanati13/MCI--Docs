@@ -1,4 +1,3 @@
-# 3. Guide Utilisation : Administrateur
 
 ##  Rôle de l'Administrateur
 
@@ -6,20 +5,15 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
 
 ---
 
-## Gestion des Utilisateurs
+## Gestion des Utilisateurs (Client / ESN)
 ![alt text](image-25.png)
-### Créer un utilisateur
-1. Menu **"Utilisateurs"** → **"Nouveau"**
-2. Remplir les informations :
-   - Nom et prénom
-   - Email (servira d'identifiant)
-   - Téléphone
-   - Rôle : ESN / Client 
-3. Cliquer sur **"Enregistrer"**
+### Créer un utilisateur (Client / ESN)
+1. Menu **Gestion des Entités** → **ESN/CLIENT**
+2. Remplir les informations 
+3. Cliquer sur **"Ajoute"**
+#### Valider un profil (Valider un profil après le client ou l’ESN rem­pli toutes les infos)
 ![alt text](image-26.png)
-#### Valider un profil 
-1. Menu → **"ESN "**
-2. Cliquer sur l'ESN
+1. Menu → **Gestion des Entités** → **ESN/CLIENT**
 3. Vérifier les documents :
    - ✓ SIRET / Registre du commerce
    - ✓ Statuts de l'entreprise
@@ -27,25 +21,13 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
    - ✓ Pièce d'identité du responsable
 4. Actions possibles :
    - **"Approuver"** : Profil valide, compte activé
-   - **"Refuser"** : Demander documents complémentaires
-5. L'ESN reçoit une notification
+   - **"Re-envoyer un rappel"** : Demander documents complémentaires
 
-#### Valider un profil Client
-1. Menu → **"Clients"**
-2. Cliquer sur le client
-3. Vérifier les documents :
-   - ✓ SIRET / Registre du commerce
-   - ✓ Statuts de l'entreprise
-   - ✓ Certificat d'immatriculation
-   - ✓ Pièce d'identité du responsable
-4. Actions possibles :
-   - **"Approuver"** : Profil valide, compte activé
-   - **"Refuser"** : Demander documents complémentaires
-5. Le client reçoit une notification
 
-![alt text](image-27.png)
 ### Désactiver les Profils ESN / Client
-1. Menu **"Utilisateurs"** → Sélectionner l'utilisateur
+![alt text](image-27.png)
+
+1. Menu **Gestion des Entités** → **ESN/CLIENT**
 2. Cliquer sur **"Désactiver"**
 3. Confirmer l'action
 
@@ -53,28 +35,30 @@ L'administrateur a tous les droits sur la plateforme Maghreb Connect IT.
 
 
 ## Supervision des Cycles
-![alt text](image-29.png)
 ### Cycle AO
+Menu → **Projets & Commandes** → **Appels d'offres**
+![alt text](image-29.png)
 - Voir tous les appels d'offres
-![alt text](image-30.png)
-![alt text](image-31.png)
+- Tu peux activer ou désactiver une Appel d'offre.
 ### Cycle BDC
-- Valider/annuler des bons de commande
+Menu → **Projets & Commandes** → **Bons de commande**
+![alt text](image-34.png)
+![alt text](image-35.png)
+- Valider/annuler les bons de commande
 - **Prendre la commission sur chaque BDC** :
   - Commission = Montant BDC × Pourcentage défini
-  - Automatiquement retenue lors de la facturation
+
 ### Cycle CRA
+Menu → **Suivi & Validation** → **Validation CRA**
 ![alt text](image-28.png)
-- Voir tous les CRA (tous consultants)
+- Voir tous les CRA 
 
 ### Cycle Factures
-![alt text](image-32.png)
-- Accès à toutes les factures
+1. Menu **Suivi & Validation** → **Gestion des Factures**
+![alt text](image-33.png)
 - **Accepter les paiements des clients** 
   - Voir les paiements en attente
   - Valider les paiements reçus
-  - Générer les reçus de paiement
-  - Reverser l'argent à l'ESN (après commission)
-
+  - Reverser montant total à l'ESN (après commission)
 ---
 
